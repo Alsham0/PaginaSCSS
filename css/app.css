@@ -1,0 +1,43 @@
+:root{
+  --Cafe2: rgba(216, 172, 119, 1);
+  --Cafe3: rgba(165, 83, 36, 1);
+  --Cafe4: rgba(161, 103, 45, 1);
+  }
+.cell {
+  margin: 1em;
+}
+.outside {
+  background-color: var(--Cafe2);
+  padding: 0em 3em;
+}
+.translucent-form-overlay {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(54, 54, 54, 0.8);
+  padding: 20px;
+  color: #fefefe;
+}
+
+.translucent-form-overlay .columns.row {
+  display: block;
+}
+
+.translucent-form-overlay h3, .translucent-form-overlay label {
+  color: #fefefe;
+}
+
+.translucent-form-overlay input, .translucent-form-overlay select {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::-webkit-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input:-ms-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::placeholder {
+  color: #8a8a8a;
+}

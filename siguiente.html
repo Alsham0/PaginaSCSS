@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+
+</head>
+
+<body>
+   
+
+    <section class="home">
+        <div class="titulo">
+        <p>¿Que es un perrito?</p>
+      </div>
+        <div class="text">El perro es un mamífero carnívoro de la familia de los cánidos, que constituye una especie del género Canis-
+            En el 2013, la población mundial estimada de perros estaba entre setecientos millones y novecientos ochenta y siete millones.Su tamaño (o talla), su forma y su pelaje es muy diverso y varía según la raza. Posee un oído y un olfato muy desarrollados, y este último es su principal órgano sensorial. Su longevidad media es de diez a trece años, dependiendo de la raza.
+        <br>El perro doméstico proviene de un grupo ancestral común que data de hace aproximadamente treinta mil años, y desde entonces se ha extendido a todas partes del mundo. Los primeros restos fósiles de perros enterrados junto con seres humanos se encontraron en Israel, y datan de hace unos doce mil años. Desde entonces, los perros y los humanos han evolucionado conjuntamente, tanto en las culturas africanas y euroasiáticas, como en las que poblaron América y se mantuvieron sin contacto con aquellas hasta el siglo XV.
+           Los perros comparten el entorno, los hábitos y el estilo de vida humanos, como las dietas ricas en cereales y almidón. La alimentación inadecuada, así como el uso de antibióticos, son la causa del desarrollo de muchas enfermedades inflamatorias e inmunológicas. Unas cuatrocientas enfermedades del perro tienen una equivalente humana, y destacan especialmente la enfermedad de Alzheimer y otros trastornos neurológicos, así como varios tipos de cáncer, enfermedades autoinmunes y enfermedades cardiovasculares.</div>
+           
+        
+                <li>
+                  <img src="https://jacutata.com/wp-content/uploads/2019/08/Retrato-de-perros-peque%C3%B1os.jpg" width="800px" height="450px" />
+                  
+                </li>
+                
+        <br>
+        <br>
+        <br>
+        
+
+            
+          </section>  
+           
+    </section>
+ <!--<title>Barra Lateral/title>--> 
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                   
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Pets Blog</span>
+                    <span class="profession">Blog Mascotil</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+               
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Principal</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Lo mas nuevo</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Tips de Cuidado</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Razas Favoritas</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Tienda</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+                
+            </div>
+        </div>
+
+    </nav>
+    
+
+
+</section>
+<script>
+    const body = document.querySelector('body'),
+    sidebar = body.querySelector('nav'),
+    toggle = body.querySelector(".toggle"),
+    searchBtn = body.querySelector(".search-box"),
+    modeSwitch = body.querySelector(".toggle-switch"),
+    modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+  sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+  sidebar.classList.remove("close");
+})
+
+
+
+  </script>
+
+</body>
+</html>
